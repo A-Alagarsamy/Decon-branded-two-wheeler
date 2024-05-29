@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas Text Example</title>
+</head>
+<body>
+  <canvas id="myCanvas" width="400" height="200" style="border:1px solid #000;"></canvas>
+
+  <script>
+    // Get the canvas element
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+    // Set font style
+    ctx.font = "30px Arial";
+
+    // Set text color
+    ctx.fillStyle = "red";
+
+    // Set text alignment
+    ctx.textAlign = "center";
+
+    // Set text baseline
+    ctx.textBaseline = "middle";
+
+    // Draw the text
+    ctx.fillText("Hello, Canvas! <br>hello world", canvas.width / 2, canvas.height / 2);
+  </script> 
+</body>
+</html>
+
+</body>
+</html>
